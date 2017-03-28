@@ -1,0 +1,92 @@
+.mainNav {
+    height: 60px;
+    width:110%;
+    position: fixed;
+    background-color: black;
+    margin-top:-8px;
+    margin-left:-30px;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 80px;
+    border: 1.5px solid black;
+}
+
+.navList {
+    list-style:none;
+    float: right;
+    margin-right:300px;
+    margin-top:-10px;
+}     
+
+.listItem {
+    float: left;
+    margin-left:35px;
+    font-size: 18px;
+    color: white;
+    border-radius:0px 0px 20px 20px;
+    padding:15px 20px;
+    background-color: #4d004d;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.listItem:hover {
+    text-decoration: underline;
+    transition:0.6s;
+}
+
+.banner {
+    
+}
+
+.bannerImg {
+    width: 110%;
+    height:300px;
+    margin-left:-30px;
+    margin-top: 30px;
+}
+
+.header {
+    text-align: center;
+    margin-top:-180px;
+    font-size: 50px;
+    font-family: Old English Text MT;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    color:white;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 30px;
+}
+
+i.fa {
+    font-size: 30px;
+    color: #4d004d;
+    padding-left: 10px;
+}
+
+.contact-form {
+    width: 50%;
+    margin-left:25%;
+}
+
+.contact--info {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 180px;
+}
