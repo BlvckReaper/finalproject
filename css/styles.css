@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    margin-top: 8px;
+}
+
 .mainNav {
     height: 60px;
     width:110%;
@@ -20,7 +25,7 @@
 .navList {
     list-style:none;
     float: right;
-    margin-right:300px;
+    margin-right:160px;
     margin-top:-10px;
 }     
 
@@ -29,7 +34,7 @@
     margin-left:35px;
     font-size: 18px;
     color: white;
-    border-radius:0px 0px 20px 20px;
+    border-radius:0px 0px 15px 15px;
     padding:15px 20px;
     background-color: #4d004d;
 }
@@ -48,21 +53,22 @@ li a {
 }
 
 .bannerImg {
-    width: 110%;
+    width: 100%;
     height:300px;
-    margin-left:-30px;
     margin-top: 30px;
 }
 
 .header {
     text-align: center;
-    margin-top:-180px;
     font-size: 50px;
     font-family: Old English Text MT;
+    margin-top: -200px;
+    margin-bottom: 190px;
 }
 
 footer {
     height: 100px;
+    width: 100%;
     background-color: black;
     color:white;
     margin-top: 200px;
@@ -89,4 +95,25 @@ i.fa {
     text-align: center;
     padding-bottom: 10px;
     margin-top: 180px;
+}
+
+.aboutText {
+    width:1000px;
+    margin-left: 190px;
+}
+
+.ACT {
+    height: 100px;
+    margin-left: 540px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.ACT:hover {
+    border: 4px solid black;
+}
+
+.donateButton {
+    height: 50px;
+    margin-left: 425px;
 }
